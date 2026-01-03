@@ -31,7 +31,7 @@ It is designed for scenarios where files need to be temporarily protected and ac
 
 ## How It Works
 
-1. A file must already exist before it can be locked.
+1. A text file must already exist before it can be locked. ( create one if not available ) 
 2. When a file is locked:
    - The original file is encrypted and renamed with a `.locked` extension
    - File metadata is stored in a binary file (`vault.dat`)
